@@ -21,4 +21,8 @@ Budar\Config::init(array(
 ));
 
 $m = new MyModel();
-$m->get();
+$m->email = 'adsf';
+$m->pass = 'asdf';
+$m->save();
+$m->email = 'xxx';
+$m->save();
