@@ -7,7 +7,7 @@ function exception_handler($exception) {
 
 set_exception_handler('exception_handler');
 
-include 'budar.php';
+include 'Budar.php';
 
 class MyModel extends Budar\Model
 {
