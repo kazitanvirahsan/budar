@@ -1,6 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
+
 function exception_handler($exception) {
   echo "Uncaught exception: " , $exception->getMessage(), "\n";
 }
@@ -13,7 +14,6 @@ class MyModel extends Budar\Model
 {
 	protected $table = 'user';
 	protected $primaryKey = 'id';
-
 }
 
 Budar\Config::init(array(
